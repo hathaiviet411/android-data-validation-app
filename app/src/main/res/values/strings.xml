@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidApplication</string>
+    <string name="property_type">🗃 Property Type</string>
+    <string name="bedrooms">🛌 Bedrooms</string>
+    <string name="date">📅 Date</string>
+    <string name="monthly_rent_price">💰 Monthly Rent Price</string>
+    <string name="furniture_types">🚪 Furniture Types</string>
+    <string name="furnished">Furnished</string>
+    <string name="unfurnished">Unfurnished</string>
+    <string name="part_furnished">Part Furnished</string>
+    <string name="notes">📝 Notes</string>
+    <string name="name_of_the_reporter">🔖 Name of The Reporter</string>
+    <string name="flat">Flat</string>
+    <string name="house">House</string>
+    <string name="bungalow">Bungalow</string>
+</resources>

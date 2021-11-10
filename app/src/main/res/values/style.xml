@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Custom Success Toast Message  -->
+    <style name="successToastMessage">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#77D970 </item>
+        <item name="stSolidBackground">true</item>
+        <item name="stIconStart">@drawable/ic_success</item>
+        <item name="stLength">LONG</item>
+        <item name="stGravity">center</item>
+        <item name="stRadius">15dp</item>
+    </style>
+    <!--  Custom Failed Toast Message  -->
+    <style name="failedToastMessage">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#FF4848</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stIconStart">@drawable/ic_failed</item>
+        <item name="stLength">LONG</item>
+        <item name="stGravity">center</item>
+        <item name="stRadius">15dp</item>
+    </style>
+
+</resources>

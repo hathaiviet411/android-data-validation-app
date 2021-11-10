@@ -31,6 +31,7 @@
             android:textSize="18sp" />
 
         <RadioGroup
+            android:id="@+id/propertyTypeRadioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -63,6 +64,7 @@
             android:layout_marginTop="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/bedrooms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
@@ -80,6 +82,7 @@
             android:layout_marginTop="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="date"
@@ -97,6 +100,7 @@
             android:layout_marginTop="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/monthlyRentPrice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
@@ -116,22 +120,23 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:id="@+id/furnitureTypeRadioGroup">
 
             <RadioButton
-                android:id="@+id/radio_a"
+                android:id="@+id/furnished"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/furnished" />
 
             <RadioButton
-                android:id="@+id/radio_b"
+                android:id="@+id/unfurnished"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/unfurnished" />
 
             <RadioButton
-                android:id="@+id/radio_c"
+                android:id="@+id/part_furnished"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/part_furnished" />
@@ -171,6 +176,13 @@
                 android:hint="@string/name_of_the_reporter"
                 android:textSize="18sp"/>
         </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/submit" />
 
     </LinearLayout>
 

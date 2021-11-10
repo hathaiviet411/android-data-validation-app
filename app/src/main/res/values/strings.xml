@@ -13,4 +13,8 @@
     <string name="flat">Flat</string>
     <string name="house">House</string>
     <string name="bungalow">Bungalow</string>
+    <string name="submit">🗃 Submit</string>
+    <string name="required_bedroom_number">Bedroom Number is Required !</string>
+    <string name="required_date">Date is Required !</string>
+    <string name="required_monthlyRentPrice">Monthly Rent Price is Required !</string>
 </resources>

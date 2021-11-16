@@ -17,7 +17,7 @@ import io.github.muddz.styleabletoast.StyleableToast;
 public class MainActivity extends AppCompatActivity {
     // Initial variables
     RadioGroup propertyTypeRadioGroup, furnitureTypeRadioGroup;
-    TextInputEditText bedrooms, date, monthlyRentPrice;
+    TextInputEditText bedrooms, date, monthlyRentPrice, nameReporter;
     Button submitBtn;
     AwesomeValidation awesomeValidation;
 
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         bedrooms = findViewById(R.id.bedrooms);
         date = findViewById(R.id.date);
         monthlyRentPrice = findViewById(R.id.monthlyRentPrice);
+        nameReporter = findViewById(R.id.nameReporter);
         submitBtn = findViewById(R.id.submitBtn);
 
         // Initialize Validation Style
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         awesomeValidation.addValidation(this, R.id.bedrooms, RegexTemplate.NOT_EMPTY, R.string.required_bedroom_number);
         awesomeValidation.addValidation(this, R.id.date, RegexTemplate.NOT_EMPTY, R.string.required_date);
         awesomeValidation.addValidation(this, R.id.monthlyRentPrice, RegexTemplate.NOT_EMPTY, R.string.required_monthlyRentPrice);
+        awesomeValidation.addValidation(this, R.id.nameReporter, RegexTemplate.NOT_EMPTY, R.string.required_nameReporter);
 
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override

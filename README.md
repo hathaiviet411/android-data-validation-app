@@ -8,14 +8,23 @@
 
 ### Step 3: Setup Android Gradle Plugin Version
 ```
-Android Gradle Plugin Version: 4.4.2
+Android Gradle Plugin Version: 7.0.3
 ```
 
 ### Step 4: Setup Gradle Version
 ```
-Gradle Version: 6.7.1
+Gradle Version: 7.0.2
 ```
 
+### Step 5: Install Necessary Dependencies:
+```
+Go to: Gradle Scripts --> build.gradle (Module) --> dependencies --> add these dependencies:
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.basgeekball:awesome-validation:4.3'
+
+Then choose [Sync now] button to make these dependencies working.
+```
 ### Step 5: Create virtual machine
 
 ### Step 6: Run application
